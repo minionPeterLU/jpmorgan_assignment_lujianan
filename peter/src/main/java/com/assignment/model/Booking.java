@@ -7,8 +7,11 @@ public class Booking {
     public static LocalDateTime bookedAt;
     public static int nextBookingId = 1;
 
-    public static int generateNewBookingId() {
-        return nextBookingId++;
+
+    public static String generateNewBookingId() {
+        nextBookingId++;
+
+        return Show.show1+"-"+Buyer.phoneNumber+"-"+nextBookingId++;
     } 
 
     public static void setBookingTime() {

@@ -1,4 +1,10 @@
+com\assignment\constants\SystemContent.class
+com\assignment\controller\QuitCommand.class
+com\assignment\model\Seats.class
+com\assignment\controller\Command.class
+com\assignment\controller\BuyerCommand.class
 com\assignment\controller\CommandFactory.class
+com\assignment\model\Booking.class
 com\assignment\controller\InvalidCommandException.class
 com\assignment\App.class
-com\assignment\model\Seats.class
+com\assignment\controller\AdminCommand.class

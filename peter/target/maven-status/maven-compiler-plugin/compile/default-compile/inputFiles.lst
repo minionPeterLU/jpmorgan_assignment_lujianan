@@ -1,7 +1,12 @@
 C:\Users\Admin\Documents\GitHub\jpmorgan_assignment_lujianan\peter\src\main\java\com\assignment\controller\Command.java
 C:\Users\Admin\Documents\GitHub\jpmorgan_assignment_lujianan\peter\src\main\java\com\assignment\controller\CommandFactory.java
 C:\Users\Admin\Documents\GitHub\jpmorgan_assignment_lujianan\peter\src\main\java\com\assignment\App.java
+C:\Users\Admin\Documents\GitHub\jpmorgan_assignment_lujianan\peter\src\main\java\com\assignment\model\Buyer.java
+C:\Users\Admin\Documents\GitHub\jpmorgan_assignment_lujianan\peter\src\main\java\com\assignment\constants\SystemContent.java
+C:\Users\Admin\Documents\GitHub\jpmorgan_assignment_lujianan\peter\src\main\java\com\assignment\controller\BuyerCommand.java
 C:\Users\Admin\Documents\GitHub\jpmorgan_assignment_lujianan\peter\src\main\java\com\assignment\controller\InvalidCommandException.java
 C:\Users\Admin\Documents\GitHub\jpmorgan_assignment_lujianan\peter\src\main\java\com\assignment\controller\QuitCommand.java
 C:\Users\Admin\Documents\GitHub\jpmorgan_assignment_lujianan\peter\src\main\java\com\assignment\model\Booking.java
+C:\Users\Admin\Documents\GitHub\jpmorgan_assignment_lujianan\peter\src\main\java\com\assignment\model\Show.java
+C:\Users\Admin\Documents\GitHub\jpmorgan_assignment_lujianan\peter\src\main\java\com\assignment\controller\AdminCommand.java
 C:\Users\Admin\Documents\GitHub\jpmorgan_assignment_lujianan\peter\src\main\java\com\assignment\model\Seats.java

@@ -1,6 +1,6 @@
 # Author: Peter LU
-# Date: 19 March 2023
-# How to run the application
+# Date: 28 March 2023
+# How to run the application in peter folder
 - mvn clean install
     - generate the build file peter-1.0.jar  
 
