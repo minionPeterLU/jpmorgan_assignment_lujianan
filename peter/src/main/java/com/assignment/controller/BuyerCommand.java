@@ -18,8 +18,8 @@ public class BuyerCommand implements Command {
             System.out.println("【Buyer Menu】");
             System.out.println(SystemContent.LINEBREAK);
             System.out.println("1. Book seats");
-            System.out.println("2. View Booked seats");
-            System.out.println("3. Cancel Booked seats");
+            System.out.println("2. View booked seats");
+            System.out.println("3. Cancel booked seats");
             System.out.println("4. Return to main menu");
             System.out.print("Please enter your choice: ");
             String choice = scanner.nextLine();
@@ -96,7 +96,7 @@ public class BuyerCommand implements Command {
         String input = scanner.nextLine().toUpperCase().trim();
 
         if ("y".equalsIgnoreCase(input)) {
-            if (Booking.isWithinTwoMinutes()) {
+            if (Booking.isWithinBookingPeriod()) {
                 System.out.println("Booking cancelled.");
                 Iterator<String> it = Seats.getBookedSeats().iterator();
                 while(it.hasNext()){
@@ -106,7 +106,7 @@ public class BuyerCommand implements Command {
                 Seats.resetBookedSeats();
                 Seats.loadSeatAvailability();
             } else {
-                System.out.println("Booking cannot be canceled as it's been more than 2 minutes.");
+                System.out.println("Sorry! Booking cannot be cancelled due to the valid booking period expired.");
             }
         } else {
             return;

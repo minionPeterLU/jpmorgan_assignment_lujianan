@@ -13,7 +13,17 @@ public class CommandFactoryTest {
     }
 
     @Test
-    public void getCommand() throws Exception {
+    public void getCommandForAdminMenu() throws Exception {
+        commandFactory.getCommand("A");
+    }
+
+    @Test
+    public void getCommandForBuyerMenu() throws Exception {
+        commandFactory.getCommand("B");
+    }
+
+    @Test
+    public void getCommandForExit() throws Exception {
         commandFactory.getCommand("Q");
     }
 }

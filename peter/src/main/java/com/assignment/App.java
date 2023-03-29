@@ -44,17 +44,19 @@ public class App {
         command = null;
 
         try {
-            if ("a".equalsIgnoreCase(commandLine)) {
-                AdminCommand.adminMenu();
-            } else if ("b".equalsIgnoreCase(commandLine)) {
-                BuyerCommand.buyerMenu();
-            } else {
-                command = commandFactory.getCommand(commandLine);
-            }
+            command = commandFactory.getCommand(commandLine);
         } catch (InvalidCommandException e) {
             System.out.println("");
             System.out.println("Invalid command. Please try again!");
             System.out.println("");
+        }
+
+        if (command instanceof AdminCommand) {
+            AdminCommand.adminMenu();
+        }
+
+        if (command instanceof BuyerCommand) {
+            BuyerCommand.buyerMenu();
         }
 
         if (command instanceof QuitCommand) {
